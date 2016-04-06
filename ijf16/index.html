@@ -83,12 +83,18 @@ var allFiles = 0;
     		img.onload = function() {
 		            var canvas = document.createElement("canvas");
 		            //var canvas = $("<canvas>", {"id":"testing"})[0];
-		            var ctx = canvas.getContext("2d");
-		            ctx.drawImage(img, 0, 0);
-		    
+		            //var ctx = canvas.getContext("2d");
+		            //ctx.drawImage(img, 0, 0);
+		   
+
+		   
 		            // Set Width and Height
 		            var MAX_WIDTH = 1500;
 		            var MAX_HEIGHT =1125;
+		            //var MAX_WIDTH = 800;
+		            //var MAX_HEIGHT =600;
+		          
+		          
 		            var width = img.width;
 		            var height = img.height;
 		    
@@ -106,7 +112,9 @@ var allFiles = 0;
 		            canvas.width = width;
 		            canvas.height = height;
 		            var ctx = canvas.getContext("2d");
-		            ctx.drawImage(img, 0, 0, width, height);
+		           ctx.drawImage(img, 0, 0, width, height);
+		            		    
+		            
 		    	ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
 		      ctx.font = "20pt Helvetica";
@@ -114,21 +122,27 @@ var allFiles = 0;
          ctx.fillText(waterMarkText, width - (waterMarkText.length * 15), height - 20);
 
 
-		            dataUrl = canvas.toDataURL("image/png");
+		            //dataUrl = canvas.toDataURL("image/png");
+		            dataUrl = canvas.toDataURL("image/jpeg");
 		            document.getElementById('image_preview').src = dataUrl;  
 		            
                 //Logging
                 //logging("New watermark for " + document.getElementById("phName").value + ", filename: " + fileName);
 
 		              document.getElementById('downloadImage').href = dataUrl; 
+		       
+		       
 		       document.getElementById('downloadImage').click();
+			
+			
+			
 				//alert (allFiles);
 				if (fileIndex < allFiles-1) {
 					fileIndex ++;
 					doUploadW(fileIndex);
 				} else {
 					//alert("Done!");
-					location.reload();
+					//location.reload();
 				}
 		      
 	
