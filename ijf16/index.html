@@ -109,9 +109,9 @@ var allFiles = 0;
 		            ctx.drawImage(img, 0, 0, width, height);
 		    	ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
-		      ctx.font = "10pt Helvetica";
+		      ctx.font = "20pt Helvetica";
 		      var waterMarkText = document.getElementById("phName").value + " - #IJF16";
-         ctx.fillText(waterMarkText, width - (waterMarkText.length * 8), height - 20);
+         ctx.fillText(waterMarkText, width - (waterMarkText.length * 15), height - 20);
 
 
 		            dataUrl = canvas.toDataURL("image/png");
