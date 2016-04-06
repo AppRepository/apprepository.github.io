@@ -107,9 +107,9 @@ var allFiles = 0;
 		            canvas.height = height;
 		            var ctx = canvas.getContext("2d");
 		            ctx.drawImage(img, 0, 0, width, height);
-		    	ctx.fillStyle = "rgba(204, 204, 204, 0.5)";
+		    	ctx.fillStyle = "rgba(204, 204, 204, 1)";
 
-		      ctx.font = "12pt Arial";
+		      ctx.font = "10pt Helvetica";
 		      var waterMarkText = document.getElementById("phName").value + " - #IJF16";
          ctx.fillText(waterMarkText, width - (waterMarkText.length * 8), height - 20);
 
