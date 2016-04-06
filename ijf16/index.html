@@ -15,7 +15,7 @@
 
 function logging(message) {
     var img = document.createElement("img");
-    img.src="log.php?message=" + message;
+    img.src="http://dev.andreafortuna.org/api/dumblog/log.php?message=" + "(IJF16Watermark) " + message;
     
 }
 
@@ -42,7 +42,7 @@ function recoverData() {
 	if (sessionStorage.getItem("phName")!= "") {
 		document.getElementById("phName").value = sessionStorage.getItem("phName");
 		
-		//logging("Recovered session:" + sessionStorage.getItem("phName"));
+		logging("Recovered session:" + sessionStorage.getItem("phName"));
 	}
 }
 
@@ -112,7 +112,7 @@ var allFiles = 0;
 		            document.getElementById('image_preview').src = dataUrl;  
 		            
                 //Logging
-                //logging("New watermark for " + document.getElementById("phName").value + ", filename: " + fileName);
+                logging("New watermark for " + document.getElementById("phName").value + ", filename: " + fileName);
 
 		              document.getElementById('downloadImage').href = dataUrl; 
 		       
