@@ -105,7 +105,7 @@ var allFiles = 0;
 		    	ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
 		      ctx.font = "20pt Helvetica";
-		      var waterMarkText = document.getElementById("phName").value + " - #IJF16";
+		      var waterMarkText = "Ph. " +  document.getElementById("phName").value + " - #IJF16";
          ctx.fillText(waterMarkText, width - (waterMarkText.length * 15), height - 20);
 
 		            dataUrl = canvas.toDataURL("image/jpeg");
