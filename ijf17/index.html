@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-<title>IJF16 Watermark Tool</title>
+<title>IJF17 Watermark Tool</title>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<meta property="og:title" content="IJF16 Watermark Tool" />
+<meta property="og:title" content="IJF17 Watermark Tool" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://apps.andreafortuna.org/ijf16/" />
-<meta property="og:image" content="http://apps.andreafortuna.org/ijf16/watermark.png" />
-<meta property="og:description" content="A simple image resize and waterark tool made for IJF16 Photo Team" />
+<meta property="og:url" content="http://apps.andreafortuna.org/ijf17/" />
+<meta property="og:image" content="http://apps.andreafortuna.org/ijf17/watermark.jpg" />
+<meta property="og:description" content="A simple image resize and waterark tool made for IJF17 Photo Team" />
 
    <link rel="stylesheet" href="css/main.css">
    <script type="text/javascript">
 
 function logging(message) {
     var img = document.createElement("img");
-    img.src="http://dev.andreafortuna.org/api/dumblog/log.php?message=" + "(IJF16Watermark) " + message;
+    img.src="http://dev.andreafortuna.org/api/dumblog/log.php?message=" + "(IJF17Watermark) " + message;
     
 }
 
@@ -105,7 +105,7 @@ var allFiles = 0;
 		    	ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
 		      ctx.font = "20pt Helvetica";
-		      var waterMarkText = "Ph. " +  document.getElementById("phName").value + " - #IJF16";
+		      var waterMarkText = "Ph. " +  document.getElementById("phName").value + " - #IJF17";
          ctx.fillText(waterMarkText, width - (waterMarkText.length * 15), height - 20);
 
 		            dataUrl = canvas.toDataURL("image/jpeg");
@@ -146,7 +146,7 @@ var allFiles = 0;
  </head>
 <body onload="recoverData()">
 <header style="margin-left:50px;">
-  <a href="./"><img src="watermark.png" style="float:left;margin-top:-25px;max-width:100px;"></a>
+  <a href="./"><img src="watermark.jpg" style="float:left;margin-top:-25px;max-width:100px;"></a>
   <h2>Watermark Tool</h2>
  </header>
  
