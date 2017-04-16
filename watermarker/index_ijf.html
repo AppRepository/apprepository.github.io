@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JS Watermark Tool</title>
-    
-    <meta property="og:title" content="HTML5 Watermark Tool" />
+<title>IJF17 Watermark Tool</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta property="og:title" content="IJF17 Watermark Tool" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://apps.andreafortuna.org/watermarker/" />
-<meta property="og:image" content="http://apps.andreafortuna.org/watermarker/logo.png" />
-<meta property="og:description" content="A simple image resize and watermark tool" />
-    
-       <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript">
+<meta property="og:url" content="http://apps.andreafortuna.org/ijf17/" />
+<meta property="og:image" content="http://apps.andreafortuna.org/ijf17/watermark.jpg" />
+<meta property="og:description" content="A simple image resize and waterark tool made for IJF17 Photo Team" />
+
+   <link rel="stylesheet" href="css/main.css">
+   <script type="text/javascript">
 
 function logging(message) {
     var img = document.createElement("img");
@@ -104,8 +105,7 @@ var allFiles = 0;
 		    	ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
 		      ctx.font = "20pt Helvetica";
-		      //var waterMarkText = "Ph. " +  document.getElementById("phName").value + " - #IJF17";
-		      var waterMarkText = document.getElementById("phName").value;
+		      var waterMarkText = "Ph. " +  document.getElementById("phName").value + " - #IJF17";
          ctx.fillText(waterMarkText, width - (waterMarkText.length * 15), height - 20);
 
 		            dataUrl = canvas.toDataURL("image/jpeg");
@@ -143,15 +143,31 @@ var allFiles = 0;
     
 
   </script>
- 
  </head>
 <body onload="recoverData()">
 <header style="margin-left:50px;">
-  <a href="/" style="text-decoration: none;">
-  <h2>JS Watermark Tool</h2></a>
+  <a href="./"><img src="watermark.jpg" style="float:left;margin-top:-25px;max-width:100px;"></a>
+  <h2>Watermark Tool</h2>
  </header>
+ 
+ 
+<div id="ads" style="float:right;width:310px;height:280px;margin-right:30px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ijf15 box -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-3112565434711919"
+     data-ad-slot="4349290906"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>	
+ 
+ 
   <br>
   <div id="main">
+
+  	
   <form id="form1" enctype="multipart/form-data" method="post" onsubmit="doUpload();return false;">
     <div style="max-width:600px; margin-left:50px; height:200px;">
 <h5>Type your name, select one or more images and click "Convert!": the files will be scaled (max 2000x1538px) and watermarked<br>The download will start automatically.</h5>
@@ -176,8 +192,7 @@ var allFiles = 0;
     	<h2>Sorry, this tool works only with <a href="https://www.google.com/chrome/browser/desktop/">Chrome</a> or <a href="https://www.mozilla.org/firefox/">Firefox</a></h2>
     </div>
   
-  <footer><span style="float:right;"><strong>v2.0Beta</strong> - Made with love by <a href="https://andreafortuna.org">Andrea Fortuna</a>&nbsp;-&nbsp;<a href="mailto:andrea@andreafortuna.org?subject=JSWatermark">andrea@andreafortuna.org</a></span></footer>
-
+  <footer style="margin-top:30px;"><span style="float:right;"><strong>v1.2.3Beta</strong> - Made with love by <a href="http://www.andreafortuna.org">Andrea Fortuna</a>&nbsp;-&nbsp;<a href="mailto:andrea@andreafortuna.org?subject=IJG16Watermark">andrea@andreafortuna.org</a></a></span></footer>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -185,20 +200,10 @@ var allFiles = 0;
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-131216-30', 'auto');
-  ga('send', 'pageview');
-
-</script><script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-131216-30', 'auto');
+  ga('create', 'UA-131216-32', 'auto');
   ga('send', 'pageview');
 
 </script>
-
 
 </body>
 </html>
