@@ -3,22 +3,22 @@
 # Link utili
 
 # Social Engineering
-- (https://it.wikipedia.org/wiki/Ingegneria_sociale)
-- https://it.wikipedia.org/wiki/Kevin_Mitnick
-- http://www.attivissimo.net/security/soceng/soceng.htm 
+- [Ingegneria Social](https://it.wikipedia.org/wiki/Ingegneria_sociale)
+- [Kevin Mitnick](https://it.wikipedia.org/wiki/Kevin_Mitnick)
+- [Paolo Attivissimo](http://www.attivissimo.net/security/soceng/soceng.htm)
 
 # OSINT
-- https://it.wikipedia.org/wiki/OSINT 
-- https://www.shodan.io/ 
-- https://thingful.net/ 
-- https://pipl.com/
-- http://www.wolframalpha.com/input/?i=facebook+report
-- https://goo.gl/knmpQk
+- [OSINT](https://it.wikipedia.org/wiki/OSINT) 
+- [Shodan](https://www.shodan.io/) 
+- [Thingful](https://thingful.net/) 
+- [Pipl](https://pipl.com/)
+- [WolframAlpha](http://www.wolframalpha.com/input/?i=facebook+report)
+- [La mia lista di risorse](https://goo.gl/knmpQk)
 
 # PRIVACY
-- https://support.google.com/nexus/answer/3467281?hl=it 
-- https://www.apple.com/it/privacy/manage-your-privacy/ 
-- https://www.facebook.com/help/393920637330807/ 
-- https://www.linkedin.com/help/linkedin/answer/3467/gestire-le-impostazioni-dell-account-e-della-privacy?lang=it 
-- https://support.twitter.com/articles/20172749?lang=it
+- [Privacy Android](https://support.google.com/nexus/answer/3467281?hl=it) 
+- [Privacy iOS](https://www.apple.com/it/privacy/manage-your-privacy/) 
+- [Privacy Facebook](https://www.facebook.com/help/393920637330807/) 
+- [Provacy Linedin](https://www.linkedin.com/help/linkedin/answer/3467/gestire-le-impostazioni-dell-account-e-della-privacy?lang=it)
+- [Privacy Twitter](https://support.twitter.com/articles/20172749?lang=it)
 
