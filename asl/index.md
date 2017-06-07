@@ -19,7 +19,7 @@
 - [Privacy Android](https://support.google.com/nexus/answer/3467281?hl=it) 
 - [Privacy iOS](https://www.apple.com/it/privacy/manage-your-privacy/) 
 - [Privacy Facebook](https://www.facebook.com/help/393920637330807/) 
-- [Provacy Linedin](https://www.linkedin.com/help/linkedin/answer/3467/gestire-le-impostazioni-dell-account-e-della-privacy?lang=it)
+- [Privacy Linkedin](https://www.linkedin.com/help/linkedin/answer/3467/gestire-le-impostazioni-dell-account-e-della-privacy?lang=it)
 - [Privacy Twitter](https://support.twitter.com/articles/20172749?lang=it)
 - [Timeline posizioni Google](https://www.google.com/maps/timeline)
 
