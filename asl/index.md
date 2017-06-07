@@ -3,7 +3,7 @@
 ## Link utili
 
 ### Social Engineering
-- [Ingegneria Social](https://it.wikipedia.org/wiki/Ingegneria_sociale)
+- [Ingegneria Sociale](https://it.wikipedia.org/wiki/Ingegneria_sociale)
 - [Kevin Mitnick](https://it.wikipedia.org/wiki/Kevin_Mitnick)
 - [Paolo Attivissimo](http://www.attivissimo.net/security/soceng/soceng.htm)
 
